@@ -22,6 +22,10 @@
     align-items: center;
 }
 
+.d-between {
+    justify-content: space-between;
+}
+
 .sub-container {
     height: 500px;
 }
@@ -43,7 +47,7 @@ header {
     border: 1px solid black;
 }
 
-/*welcom*/
+/*welcome*/
 .welcome {
     background-color: yellow;
     height: 300px;
@@ -92,4 +96,36 @@ header {
     width: 800px;
     min-height: 600px;
     background-color: chocolate;
+}
+
+/*footer*/
+
+footer {
+    background-color: black;
+    height: 600px;
+}
+
+#social {
+    background-color: bisque;
+    width: 20%;
+    min-height: 400px;
+}
+
+.ft-info {
+    background-color: blanchedalmond;
+    border: 3px dashed red;
+    width: 25%;
+    min-height: 400px;
+}
+
+#ft-border {
+    color: lightblue;
+    border: 2px solid;
+}
+
+.final {
+    background-color: chartreuse;
+    border: 1px dashed red;
+    width: 50%;
+    height: 80px;
 }
