@@ -22,6 +22,10 @@
     align-items: center;
 }
 
+.sub-container {
+    height: 300px;
+}
+
 /*header*/
 
 header {
@@ -49,4 +53,27 @@ header {
     background-color: brown;
     width: 500px;
     min-height: 200px;
+}
+
+/*introduction*/
+
+.introduction {
+    background-color: azure;
+    height: 300px;
+}
+
+.info {
+    border: 1px solid black;
+    background-color: blueviolet;
+    width: 250px;
+    min-height: 200px;
+    flex-grow: 1;
+}
+
+.info-2 {
+    border: 1px solid black;
+    background-color: pink;
+    width: 250px;
+    min-height: 200px;
+    flex-grow: 1;
 }
