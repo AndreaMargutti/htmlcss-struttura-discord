@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-/*generic*/
+/*utilities*/
 
 .container {
     max-width: 1200px;
@@ -15,6 +15,9 @@
 
 .d-flex {
     display: flex;
+}
+
+.d-center {
     justify-content: center;
     align-items: center;
 }
@@ -36,6 +39,7 @@ header {
     border: 1px solid black;
 }
 
+/*welcom*/
 .welcome {
     background-color: yellow;
     height: 300px;
